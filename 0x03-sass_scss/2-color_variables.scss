@@ -1,0 +1,16 @@
+/* Asigned variable color*/
+$color-aux: #3d3d3d;
+$color-heading: #6d6d6d;
+
+body {
+    color: $color-aux;
+    background-color: #6d6d6d;
+}
+
+p {
+    color: $color-aux;
+}
+
+h2 {
+    background-color: $color-heading;
+}
