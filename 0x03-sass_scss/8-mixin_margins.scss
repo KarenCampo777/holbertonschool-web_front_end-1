@@ -1,10 +1,13 @@
 /* Margin mixin */
+@mixin variable-mixin($parameter) {
+    margin-left: $parameter;
+    margin-right: $parameter;
+}
+
 body {
-    margin-left: 10px;
-    margin-right: 10px;
+    @include variable-mixin(10px);
 }
 
 div {
-    margin-left: 15px;
-    margin-right: 15px;
+    @include variable-mixin(15px);
 }
